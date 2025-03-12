@@ -1,5 +1,19 @@
 @charset "UTF_8";
 
+    
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lobster&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+HU:wght@100..400&display=swap');
+
+
+
+:root {
+    --fonte1:normal verdana,geneva,sans-serif;
+    --fonte2:"Noto Sans", sans-serif;
+    --fonte3:"Kanit", sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,6 +21,7 @@
 html body {
     min-height: 100%;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 header{
     background-color: black;
@@ -16,6 +31,8 @@ header{
 header> h1{
     padding-top:50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 1owv;
 }
 header > p {
     padding-bottom: 50px;
@@ -29,8 +46,9 @@ header a ,footer a {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 5wv;
     padding-left: 30px;
+    font-family: var(--fonte3);
     }
  section.normal{
     background-color: white;
@@ -42,7 +60,8 @@ section {
  }
  section.imagem{
     background-color: rgba(0, 0, 0, 0.507);
-    width: 400px;
+     display: inline-block;
+     padding: 5px;
  }
 
  header a:hover,footer a:hover{
